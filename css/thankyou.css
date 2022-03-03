@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    background-color: #212529;
+}
+.home{
+    display: flex;
+    flex-direction: column;
+}
+.title{
+    color: rgb(157, 172, 156);;
+}
+a{
+    color: rgb(157, 172, 156);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 40px;
+    padding: 10px;
+    text-align: center;
+}
+.thanks{
+    text-align: center;
+    font-weight: 600;
+    font-size: 40px;
+    padding: 10px;
+}
