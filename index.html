@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <head>
+            <meta charset="utf-8">
+            <meta name="description" content="travel away">
+            <title>babel</title>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+            <link rel="stylesheet" href="css/index.css">
+            <style>
+    
+            </style>
+        </head>
+    </head>
+    <body>
+        <div class="header">
+            <a href="#logo" class="logo">babel</a>
+            <div class="navigation">
+                <a href="#home">home</a>
+                <a href="#about-us">About us</a>
+                <div class="dropdown">
+                    <a href="#services" class="dropdown">services</a>
+                    <div class="dropdown-content">
+                        <a href="#">service 1</a>
+                        <a href="#">service 2</a>
+                        <a href="#">service 3</a>
+                    </div>
+                </div>
+                <a href="#contact-us">contact us</a>
+            </div>
+            
+        </div>
+        <div class="slideshow-container">
+            <div class="slides">
+                <img src="assets test project/slideshow/austrilla.jfif" alt="">
+            </div>
+            <div class="slides">
+                <img src="assets test project/slideshow/iceland.jfif" alt="">
+            </div>
+            <div class="slides">
+                <img src="assets test project/slideshow/las vegas.jfif" alt="">
+            </div>
+        </div>
+        <div class="aboutus" id="about-us">
+            <div class="text-beside-image">
+                <p>we are the best traveiling agency in the world top 10 and we can reach any where </p>
+            </div>
+            <img src="logos/babel-logos.jpeg" width="20%" height="auto" alt="">
+        </div>
+        <div class="services" id="services">
+            <h2>services</h2>
+            <div class="services-cards">
+                <div class="card">
+                    <div class="img">
+                        <img src="assets test project/services/booking.jfif" alt="">
+                    </div>
+                    <div class="info">
+                        <p>various hotels with diffrent views to choose from</p>
+                    </div>
+                    <div class="name-of-service">
+                        <span>booking</span>
+                        <a href="#" class="more-details">More Details</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="img">
+                        <img src="assets test project/services/traveling.jpg" alt="">
+                    </div>
+                    <div class="info">
+                        <p>reserved seats for you for any method of traveling</p>
+                    </div>
+                    <div class="name-of-service">
+                        <p>traveling</p>
+                        <a href="#" class="more-details">More Details</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="img">
+                        <img src="assets test project/services/activities.jpg" alt="">
+                    </div>
+                    <div class="info">
+                        <p>never ending activities</p>
+                    </div>
+                    <div class="name-of-service">
+                        <p>activities</p>
+                        <a href="#" class="more-details">More Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="form" id="contact-us">
+            <h2>Got any questions or need some help <br>
+                send us a message
+            </h2>
+            <form action="nowhere.php" method="POST">
+                <!-- action attributeis where are you going to send this data -->
+                <div>
+                    <label for="">Name</label><br>
+                    <!-- label element function to write a text above the input field -->
+                    <input type="text" placeholder="MR.Smith" name="custname">
+                    <!-- types of input(text,email,radio,checkbox,submit,button)
+                    placeholder attribute to show an example for the user
+                    name attribute is tag of what the user will input so we could use it else where for backend -->
+
+                </div>
+                <div>
+                    <label for="">Email</label><br>
+                    <input type="email" placeholder="hamda@gmail.com" required name="custemail">
+                </div>
+                <div>
+                    <label for="">Where to</label><br>
+                    <input type="text" placeholder="hwaui" name="custwhereto">
+                </div>
+                <div>
+                    <label for="">Budget</label><br>
+                    <input type="number" placeholder="$" name="budget">
+                </div>
+                <div>
+                    <label for="">Description</label><br>
+                    <textarea name="descip" id="" cols="20" rows="2"></textarea>
+                    <br>
+                </div>
+                
+                <input type="submit">
+                
+            </form>
+        </div>
+        <div class="copyrights">
+            <p class="footeer-title">copyrights
+                @ <span>Youssef tarek</span></p>
+           <div class="social-icons">
+               <a href="#"><i class="fab fa-twitter"></i></a>
+               <a href="#"><i class="fab fa-instagram"></i></a>
+               <a href="#"><i class="fab fa-facebook-f"></i></a>
+               <a href="#"><i class="fab fa-linkedin"></i></a>
+           </div>
+        </div>
+    </body>
+</html>
